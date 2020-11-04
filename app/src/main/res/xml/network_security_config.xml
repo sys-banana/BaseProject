@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true"/>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">appserver.bvcadt.com</domain>
+        <domain includeSubdomains="true">android.bugly.qq.com</domain>
+        <domain includeSubdomains="true">10.0.11.35:8080</domain>
+        <domain includeSubdomains="true">qytcharger.hwelltech.net:88</domain>
+        <domain includeSubdomains="true">test-bvcfile.hwelltech.net:88</domain>
+        <domain includeSubdomains="true">test-bvcappserver.hwelltech.net:88</domain>
+        <domain includeSubdomains="true">dev-bvcappserver.hwelltech.net:88</domain>
+        <domain includeSubdomains="true">dev-bvcfile.hwelltech.net:88</domain>
+        <domain includeSubdomains="true">bvcwalletref.hwelltech.net:88</domain>
+    </domain-config>
+    <!--<base-config cleartextTrafficPermitted="false"/>-->
+</network-security-config>

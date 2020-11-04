@@ -1,0 +1,7 @@
+ext {
+    dev = [
+            applicationId:"com.zz.dev",
+            AppName:"\"BaseProject\"",
+            BASE_URL:"\"https://uat-appserver.bvcadt.com/\"",
+    ]
+}
